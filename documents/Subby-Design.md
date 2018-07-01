@@ -64,19 +64,24 @@
 ## 6.2.2 Rating Package
 ## 6.2.3 Favorite Package
 ## 6.2.4 Report Package
-![SubbyReportDiagram](https://i.imgur.com/mhgUf5W.png)
+![SubbyReportDiagram](https://i.imgur.com/a2juVxT.png)
 ### Report() - Class
   *  **ReportCreator:** Creates and stores instances of Report in the database
   *  **ReportLister:** Gathers and returns all reports tied to a specific user 
   *  **ReportRetriver:** Returns single records of reports from a user, records can be deleted
 ### Methods
-  *  **Report(user_id, issue, description):** Constructes Report
-  *  **get_report_id():** Returns report ID
-  *  **get_user_id():** Returns user ID the report is tied to
-  *  **get_issue():** Returns the text explanation of a report
-  *  **get_description():** Returns a brief description for the reason the report was created
-  *  **get_time_data():** Returns time data for creation and last update of the report
-  *  **set_updated_at(datetime):** Updates updated_at
+  * Contructor (public)
+    *  Report(user_id: int, issue: text"(65535)", description: varchar"(255)") - Constructes Report
+   
+  * Getters (public)
+    *  get_report_id() - Returns report ID
+    *  get_user_id() - Returns user ID the report is tied to
+    *  get_issue() - Returns the text explanation of a report
+    *  get_description() - Returns a brief description for the reason the report was created
+    *  get_time_data() - Returns time data for creation and last update of the report
+    
+  * Setters (public)  
+    *  set_updated_at(date: datetime) - Updates updated_at
 # 7. Data Dictionary
 
 # 8. Revision History
