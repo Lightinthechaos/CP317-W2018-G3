@@ -1,4 +1,4 @@
-# CP317-W2018-G3. Hello Sarah...
+# CP317-W2018-G3
 
 ### Requirements Document
 * Located at `documents/Subby-Requirements.md`
