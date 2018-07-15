@@ -5,6 +5,23 @@
   font-weight: bold;
 }
 
+#nav_a:hover {
+	color: green;
+}
+
+
 .hello {
   color: green;
 }
+
+#sublet_title {
+	color:black;
+	
+}
+
+#sublet_title:hover {
+	color:blue;
+	
+}
+
+
